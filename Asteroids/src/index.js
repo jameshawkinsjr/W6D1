@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", function(event){
   let context = canvas.getContext("2d");
 
   const mo = new MovingObject(
-    { pos: [100 % 1000, 100 % 500], vel: [1, 1], radius: 5, color: "#555555" }
+    { pos: [100 % 1000, 100 % 500], vel: [1, 1], radius: 5, color: "#444444" }
   );
   const mo2 = new MovingObject(
     { pos: [20 % 1000, 45 % 500], vel: [-1, 1], radius: 5, color: "#222222" }
